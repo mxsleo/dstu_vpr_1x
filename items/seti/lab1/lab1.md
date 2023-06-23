@@ -25,10 +25,17 @@
 
 Для выполнения лабораторной работы потребуются:
 
+- [Visual C++ Redistributable](https://github.com/abbodi1406/vcredist/releases)
 - [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 - [Oracle VM VirtualBox Extension Pack](https://www.virtualbox.org/wiki/Downloads)
 - Windows XP или выше
 - [Alpine Linux](https://www.alpinelinux.org/downloads/) (Версия Virtual x86_64)
+
+### Oracle VM VirtualBox и Oracle VM VirtualBox Extension Pack
+
+[Загрузка Visual C++ Redistributable](https://github.com/abbodi1406/vcredist/releases)
+
+![Download Visual C++ Redistributable](https://i.imgur.com/JL0TTcQ.png)
 
 ### Oracle VM VirtualBox и Oracle VM VirtualBox Extension Pack
 
@@ -44,9 +51,20 @@
 
 ## Выполнение лабораторной работы
 
-### Создание виртуальных машин
+### Создание, настройка и установка виртуальных машин
+
+В моём случае интерфейс менеджера Oracle VM VirtualBox настроен на отображение настроек сети, снимков и экспертного режима. Плагин Oracle VM VirtualBox Extension Pack был предварительно установлен через меню плагинов (также возможна установка и из файлового менеджера. Чтобы кнопка "Установить" стала активной, необходимо пролистать лицензионное соглашение до конца - кто будет делать чистую установку, поделитесь потом скриншотом).
+
+![Tools Network](https://i.imgur.com/BYX3JXm.png)
+![VM Snapshots](https://i.imgur.com/FJIsuN9.png)
+![Expert mode](https://i.imgur.com/FejQazL.png)
 
 #### Windows XP
+
+Через меню "Машина" -> "Создать" вызываем окно создания ВМ. Данные заполняются, как показано на скриншотах, всё остальное остаётся по-умолчанию. Пути к папке ВМ и образу ISO будут отличаться. Объём жёсткого диска можно уменьшить до 2-5 ГБ.
+
+![Windows XP Name and OS type](https://i.imgur.com/mOeNarZ.png)
+![Windows XP Hardware](https://i.imgur.com/3n03WZf.png)
 
 #### Alpine Linux
 
